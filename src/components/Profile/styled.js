@@ -14,18 +14,18 @@ export const ProfileLink = styled(Link)`
   transition: color 0.5s;
 
   &:hover {
-    color: ${variables.primaryColor};
+    color: ${variables.quinaryColor};
   }
 `
 
 export const ProfileAuthor = styled.h1`
-  font-size: ${variables.fontSizes.md};
+  font-size: ${variables.fontSizes.lg};
   margin: 0.5rem auto 1.5rem;
 `
 
 export const ProfilePosition = styled.small`
   display: block;
-  font-size: ${variables.fontSizes.base};
+  font-size: ${variables.fontSizes.xs};
   font-weight: 300;
 `
 

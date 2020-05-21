@@ -1,12 +1,11 @@
 export default {
   backgroundColor: '#ffffff',
-  fontFamily: 'Circular Book',
   fontFamilyBold: 'Circular Bold',
   fontSizes: {
-    base: '14px',
+    base: '16px',
     xs: '0.786em',
     md: '1.143em',
-    lg: '1.857em',
+    lg: '1.590em',
   },
   colors: {
     primary: {
@@ -25,11 +24,11 @@ export default {
     },
   },
   lineHeight: '20px',
-  primaryColor: '#2039CC',
-  secondaryColor: '#192DA1;',
-  tertiaryColor: '#111E6C',
-  quaternaryColor: '#0C154A',
-  quinaryColor: '#080E33',
+  primaryColor: '#413F54',
+  secondaryColor : '#355691;',
+  tertiaryColor: '#5F5AA2',
+  quaternaryColor: '#30292F',
+  quinaryColor: '#EF9D59',
   textColor: '#131313',
   whiteColor: '#fff',
   translucid: '#ffffffc2',

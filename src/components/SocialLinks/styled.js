@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import variables from '../../styles/variables'
 
 export const SocialLinksWrapper = styled.nav`
   margin: 2rem auto;
@@ -15,16 +16,16 @@ export const SocialLinksList = styled.ul`
 export const SocialLinksItem = styled.li``
 
 export const SocialLinksLink = styled.a`
-  color: #8899a6;
+  color: ${variables.whiteColor};
   text-decoration: none;
   transition: color 0.5s;
   &:hover {
-    color: #1fa1f2;
+    color: ${variables.quinaryColor};
   }
 `
 
 export const IconWrapper = styled.div`
-  fill: #bbb;
+  fill: ${variables.whiteColor};
   width: 30px;
   height: 30px;
 `

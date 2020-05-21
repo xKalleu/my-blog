@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components'
-
 import variables from './variables'
 
 export default createGlobalStyle`
@@ -10,7 +9,7 @@ export default createGlobalStyle`
   }
   body {
     background-color: ${variables.quinaryColor};
-    font-family: ${variables.fontFamily};
+    font-family: 'Roboto', sans-serif;
     font-size: ${variables.fontSizes.base};
     font-weight: 400;
     margin: 0;
