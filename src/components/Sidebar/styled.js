@@ -3,7 +3,7 @@ import variables from '../../styles/variables'
 
 export const SiderbarWrapper = styled.aside`
   align-items: center;
-  border-right: 1px solid #38444d;
+  border-right: 1px solid ${variables.secondaryColor};
   background: ${variables.primaryColor};
   display: flex;
   flex-direction: column;

@@ -6,7 +6,7 @@ import variables from '../../styles/variables'
 export const MenuBarWrapper = styled.aside`
   align-items: center;
   background: ${variables.primaryColor};
-  border-left: 1px solid #38444d;
+  border-left: 1px solid ${variables.secondaryColor};
   display: flex;
   flex-direction: column;
   height: 100vh;
